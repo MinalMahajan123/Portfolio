@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(90, 8, 115);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 120%;
+ 
+}
+header {
+  display: flex;
+ height: 200%;
+  }
+img {
+  
+  margin-right: 20%;
+  width: 50%;
+  border-radius: 25px;
+
+ 
+}
+pre {
+  text-align: right;
+  margin-right: 10%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 100%;
+ 
+ 
+}
+
+.mySelf {
+  font-size: 120%;
+  margin-left: 50px;
+}
+.work{
+ font-size: 120%;
+  margin-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+button a{
+  text-decoration: none;
+  color: black;
+
+}
+button {
+  text-decoration: none;
+  background-color: rgb(207, 161, 232);
+  height: 30px;
+ 
+  border-radius: 7px;
+  margin-left: 5%;
+}
+button :hover {
+ color: rgb(19, 8, 218);
+   
+}
+.work {
+  font-size: 25px;
+  margin-left: 5%;
+}
+.education {
+  font-size: 25px;
+}
+.education h3{
+  margin-left: 5%;
+}
+.education ul {
+  font-size: 25px;
+  margin-left: 10%;
+}
+.contacts li{
+  font-size: 25px;
+  
+}
+.contacts a {
+  font-size: 150%;
+  margin-left: 80px;
+  text-decoration: none;
+  color: white;
+}
+.contacts a:hover {
+  color: black;
+}
+@media only screen and(max-width:479px) {
+  header {
+    font-size: 70%;
+    padding: 0.2em;
+  }
+   img {
+    margin: auto;
+    padding: 0%;
+    width: 10px;
+  }
+}
